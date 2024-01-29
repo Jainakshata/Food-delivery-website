@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodistic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+    <!--header section start-->    
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i> foodistic </a>
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes"> dishes </a>
+            <a href="#about"> about </a>
+            <a href="#order"> order </a>
+        </nav>
+
+        <div class="icons">
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+    <!--header section ends-->
+
+    <!--home section starts-->
+    <section class="home" id="home">
+        <div class="home-slider">
+            <div class="wrapper">
+                <div class="slide">
+                    <div class="content">
+                        <span>tasty and yummy!</span>
+                        <h3>hyginic food</h3>
+                        <p>order food online from the most hyginic restaurant at afforadable prices</p>
+                        <a href="#" class="btn"> order now </a>
+                    </div>
+                    <div class="image">
+                        <img src="/images/noodles.png" alt="noodles">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--home section ends-->
+
+    <!--dishes section starts-->
+    <section class="dishes" id="dishes">
+        <h3 class="sub-heading"> our dishes </h3>
+        <h1 class="heading"> popular dishes </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="/images/burger.png" alt="burger">
+                <h3>burger</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>rs. 60/-</span>
+                <a href="#" class="btn"> add to cart </a>
+            </div> 
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="/images/pizza.png" alt="pizza">
+                <h3>pizza</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>rs. 100/-</span>
+                <a href="#" class="btn"> add to cart </a>
+            </div> 
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="/images/roll.png" alt="sandwich">
+                <h3>roll</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>rs. 80/-</span>
+                <a href="#" class="btn"> add to cart </a>
+            </div> 
+        </div>
+    </section>
+    <!--dishes section ends-->
+
+    <!--about section start-->
+    <section class="about" id="about">
+        <h3 class="sub-heading"> about us </h3>
+        <h1 class="heading"> why choose us?</h1>
+        <div class="row">
+            <div class="image">
+                <img src="/images/dishes.png" alt="dish">
+            </div>
+
+            <div class="content">
+                <h3>best food in the country</h3>
+                <p>order food online from the most hyginic restaurant at afforadable prices.</p>
+                <p>tasty and yummy! hyginic food</p>
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>free delivery</span>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>easy payments</span>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fas fa-headset"></i>
+                        <span>24/7 service</span>
+                    </div>
+                </div>
+                <a href="#" class="btn">learn more</a>
+            </div>
+        </div>
+    </section>
+    <!--about section ends-->
+
+    <!--form section start-->
+    <section class="order" id="order">
+    <div>
+        <div class="header">
+            <h2>New Customer Registration Form</h2>
+        </div>
+        <form class="form" id="form">
+            <div class="form-control">
+                <label>Username</label>
+                <input type="text" name="" id="username" placeholder="Enter your full name">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>error msg</small>
+            </div>
+
+            <div class="form-control">
+                <label>Email</label>
+                <input type="Email" name="" id="email" placeholder="Enter your Email">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>error msg</small>
+            </div>
+
+            <div class="form-control">
+                <label>Phone Number</label>
+                <input type="number" name="" id="phone" placeholder="Enter your phone number">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>error msg</small>
+            </div>
+
+            <div class="form-control">
+                <label>Password</label>
+                <input type="password" name="" id="password" placeholder="Enter your password">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>error msg</small>
+            </div>
+
+            <div class="form-control">
+                <label>Confirm Password</label>
+                <input type="password" name="" id="cpassword" placeholder="Enter your password again">
+                <i class="fas fa-check-circle"></i>
+                <i class="fas fa-exclamation-circle"></i>
+                <small>error msg</small>
+            </div>
+            <input type="submit" value="Submit" class="btn" name="">
+        </form>
+    </div>
+</section>
+    <!--form section end-->
+
+    <!--footer section start-->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>locations</h3>
+                <a href="#">nagpur</a>
+                <a href="#">mumbai</a>
+                <a href="#">delhi</a>
+                <a href="#">pune</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">dishes</a>
+                <a href="#">about</a>
+                <a href="#">review</a>
+                <a href="#">order</a>
+            </div>
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#">+123-456-7890</a>
+                <a href="#">+111-222-3333</a>
+                <a href="#">hellohappy@gmail.com</a>
+                <a href="#">hellomoney@gmail.com</a>
+                <a href="#">nagpur, india-440025</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a href="#">twitter</a>
+                <a href="#">instagram</a>
+                <a href="#">linkedin</a>
+            </div>
+        </div>
+        <div class="credit">copyright @ 2023 by <span>akshata udapurkar</span></div>
+    </section>
+    <!--footer section ends-->
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
